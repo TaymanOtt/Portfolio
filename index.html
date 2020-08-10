@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset = 'utf-8'>
+<link rel = 'stylesheet' href = 'style.css'/>
+<script src = 'nav.js'></script>
+</head>
+
+<body>
+        
+    <div id = "mainDiv">
+        <nav id = "selectorDiv" class = "sticky">
+         
+        <button onclick = "projects()">Projects</button>               
+                
+        <button onclick = 'findMe()'>Contact</button>                    
+            
+        <button onclick = 'aboutMe()'>Home</button>
+    
+        </nav>
+
+    <div id = 'projects'>
+    
+            <h2>Examples</h2>
+            <div id = "codeSamples" >
+            
+           <div>
+            <button onclick = "hideCode()">Code Samples</button>
+   
+   
+            </div>
+            <div id = "innerCode" >
+            <div>
+                <h4>Roman Numeral Generator</h4>
+            <br>
+            <input type = "number" id = "num" name = "num"><br>
+            <button type = "button" onclick="retriever()" value="Submit">Submit</button>
+            <p id = "output1">Enter A number</p>
+            </div>
+   
+            <div>
+            <h4>Compound Interest calculator</h4>
+            <form>
+            <label for "initInvest"> Initial investment</label></br>
+            <input type = "number" id = "initInvest" name = "initInvest"></br>
+            <label for "intRate">Interest Rate</label></br>
+            <input type = "number" id = "intRate" name = "intRate"></br>
+            <label for "lenOT">Length of time in compounding periods</label></br>
+            <input type = "number" id = "lentOT" name = "lenOT"></br>
+            <button type = "button" onclick = "compInCal()" value = "Submit">Submit</button>
+            </form>
+            <div>
+            <p id = "output2">Enter Some Numbers</p>
+        </div>
+            </div>
+   
+            </div>
+            </div>
+            
+    </div>
+
+    <div id = 'findMe'>
+        <h2>Contact Me</h2>
+        <h5>Check out my github, shoot me an email or find me on indeed</h5>
+        <div id = "conForms">
+        <div id = "gitHub"> 
+            <a href = "#">
+            <img src = "GitHub-Mark-32px.png" alt = 'github'/>
+            </a>
+        
+        </div>
+        <div id = "email">
+        <a href = "#">
+        <img src = 'gmail.png' height = '30px' width = '30px' alt = 'gmail'/>
+       </a>
+        </div>
+        <div id = "indeed">
+        <img src = "indeed.png" alt = 'indeed' height = '30px' width = '32px'/>
+        </div>
+        </div>
+    </div>
+
+ <div id = 'aboutMe'>
+    
+    <div id = nameFlair> 
+    <h2>Tayman Ott </h2>
+    </div>
+         
+        <div id = "home11">
+        
+        <h2>Midwestern Web Developer</h2>
+        <p style = "font-size: 18px; color:blueviolet" >
+        Experienced with</p>
+            <p>Version Control, React.js</p>
+            <p>HTML/CSS & JavaScript</p>
+       </div>
+    
+    </div>
+</div>
+
+    <script src = 'flipper.js'></script>
+    <script src = 'findMe.js'></script>
+    <script src = 'projects.js'></script>
+    <script src = 'aboutMe.js'></script>
+    <script src = 'roman.js'></script>
+    <script src = 'comInt.js'></script>
+</body>
+</html>
