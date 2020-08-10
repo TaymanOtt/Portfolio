@@ -106,12 +106,13 @@ border-radius: 4px;
     -webkit-text-stroke: 2px #e46511;
 }
 
-@media (max-width: 360px){
+@media (max-width: 480px){
 #selectorDiv button{
     font-size: 22px;
     font-weight: 600;
     padding: 10px;
     margin: 2px;
+    margin-top: 6px;
 }
 #selectorDiv{
     width: 93vw;
