@@ -36,13 +36,16 @@ body{
 #projects{
     margin-top: 3vh;
     display: none;
-    grid-template-rows: 50% auto;
+    grid-template-rows: 20% auto;
     border: 3px solid rgb(0, 0, 0);
     text-align: center;
-    background: #fff
+    background: #fff;
+    height: 75vh;
 }
 #codeSamples{
-    border: 2px solid black;
+    border: none;
+    display: grid;
+    grid-template-rows:auto auto;
     
 }
 #codeSamples button{
@@ -56,7 +59,7 @@ body{
 }
 #innerCode{
     border:2px solid black;
-    display:none;
+    display:grid;
     grid-template-columns: 50% 50%;
 }
 #findMe{
