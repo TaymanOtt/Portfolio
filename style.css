@@ -106,7 +106,7 @@ border-radius: 4px;
     -webkit-text-stroke: 2px #e46511;
 }
 
-@media (max-width: 400px){
+@media (max-width: 360px){
 #selectorDiv button{
     font-size: 22px;
     font-weight: 600;
