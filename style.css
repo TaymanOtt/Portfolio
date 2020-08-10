@@ -1,6 +1,8 @@
 body{
     margin: 0px;
     padding: 0px;
+    background:#000;
+    height: 100vh;
 }
 #mainDiv{
     background-image: url("sunset3.jpeg");
@@ -106,16 +108,41 @@ border-radius: 4px;
 
 @media (max-width: 700px){
 #selectorDiv button{
-    font-size: 16px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 2px;
+}
+#selectorDiv{
+    width: 93vw;
+}
+#aboutMe{
+    width: 100vw;
+    height:85vh;
 }
 #nameFlair{
     font-size: 39px;
 }
 #home11{
-    font-size: 13px;
+    font-size: 20px;
 }
-
+#projects{
+    height:90vh;
+    grid-template-rows: 15% 5% auto;
+    font-size: 20px;
+}
+#projects button{
+    font-size:20px;
+}
 #innerCode{
 grid-template-columns: auto;
+grid-template-rows: auto auto;
+}
+#findMe{
+    font-size: 20px;
+}
+#findMe img{
+    height: 42px;
+    width: 42px;
 }
 }
