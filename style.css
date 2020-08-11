@@ -170,11 +170,11 @@ background: white;
 #projects{
     margin-top: 6vh;
    height: 80vh;
-    font-size: 2vw;
+    font-size: 4vw;
 }
 
 #projects button{
-    font-size:2.5vw;
+    font-size:3vw;
 }
 #codeSamples{
  
@@ -188,7 +188,7 @@ height: 80vh;
 }
 #findMe{
     width: 100vw;
-    font-size: 3vw;
+    font-size: 4vw;
     margin-top:6vh;
 }
 
