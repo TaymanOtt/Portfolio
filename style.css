@@ -48,42 +48,50 @@ body{
 #projects{
     margin-top: 3vh;
     display: none;
-    grid-template-rows: 20% auto;
     border: 3px solid rgb(0, 0, 0);
     text-align: center;
     background: #fff;
     height: 75vh;
 }
+#projects input{
+    height: 2vh;
+    font-size: 3vh;
+}
 #codeSamples{
     border: none;
     display: grid;
-    grid-template-rows:auto auto;
-    
+    grid-template-rows:auto auto; 
+    height: 75vh;
 }
 #codeSamples button{
     border-radius: 10px;
     border: none;
     background: #000000;
     color:#ffffff;
-    font-size: 15px;
+    font-size: 3vh;
     padding: 7px;
     
+}
+#codeSamples button:hover{
+    background: #333333;
 }
 #innerCode{
     border:2px solid black;
     display:grid;
     grid-template-columns: 50% 50%;
-    height: 60vh;
+
 }
 #findMe{
     display: none;
     border: 1px solid black;
     border-radius: 4px;
-    background:white;
+    background:black;
+    color: white;
     text-align: center;
     width: 95vw;
     margin: auto;
     margin-top: 3vh;
+    font-family: monospace;
 }
 #conForms{
 display: grid;
@@ -91,6 +99,7 @@ grid-template-columns: 33% 33% auto;
 padding: 15px;
 border: 3px solid black;
 border-radius: 4px;
+background: white;
 }
 #aboutMe{
     color: #ffffff;
@@ -119,8 +128,8 @@ border-radius: 4px;
 
 @media (max-width: 1000px){
 #selectorDiv button{
-    font-size: 4vw;
-    padding: 1.5vw;
+    font-size: 3vw;
+    padding: 1vw;
     margin: .3vw;
     margin-top: 1vh;
 }
@@ -141,28 +150,31 @@ border-radius: 4px;
 }
 #projects{
     margin-top: 6vh;
-    height:125vh;
-    grid-template-rows: 15% 5% auto;
-    font-size: 4vw;
+    height:100vh;
+    font-size: 3vw;
 }
 
 #projects button{
-    font-size:4vw;
+    font-size:3vw;
 }
 #codeSamples{
-    height: 100vh;
+  height: 99vh;
+  grid-template-rows: 7% auto;
 }
 #innerCode{
 grid-template-columns: auto;
-grid-template-rows: auto auto;
-height: 100vh;
+grid-template-rows: 50% 50%;
+height:99vh;
+font-size: 2vh;
 }
 #findMe{
     font-size: 4vw;
     margin-top:6vh;
 }
+
 #findMe img{
-    height: 7vh;
+    height: 6.9vh;
     width: 6.5vw;
+
 }
 }
