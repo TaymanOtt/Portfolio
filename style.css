@@ -4,7 +4,7 @@ body{
     background:#000;
     background-image: url("sunset3.jpeg");
     background-size: 100px;
-    height: 100vh;
+ 
 }
 .sticky{
     position:fixed;
@@ -52,7 +52,7 @@ body{
     border: 3px solid rgb(0, 0, 0);
     text-align: center;
     background: #fff;
-    height: 75vh;
+    height: 50vh;
 }
 #projects input{
     height: 2vh;
@@ -62,7 +62,7 @@ body{
     border: none;
     display: grid;
     grid-template-rows:auto auto; 
-    height: 75vh;
+    height: 50vh;
 }
 #codeSamples h3{
 line-height: 1vw;
@@ -147,8 +147,8 @@ background: white;
 
 @media (max-width: 1000px){
 #selectorDiv button{
-    font-size: 3vw;
-    padding: 1vw;
+    font-size: 3.5vw;
+    padding: 1.5vw;
     margin: .3vw;
     margin-top: 1vh;
 }
@@ -169,24 +169,25 @@ background: white;
 }
 #projects{
     margin-top: 6vh;
-    height:100vh;
-    font-size: 2.5vw;
+   height: 80vh;
+    font-size: 2vw;
 }
 
 #projects button{
     font-size:2.5vw;
 }
 #codeSamples{
-  height: 99vh;
-  grid-template-rows: 7% auto;
+ 
+  grid-template-rows: auto auto;
 }
 #innerCode{
 grid-template-columns: auto;
-grid-template-rows: 35% auto;
-height:99vh;
+grid-template-rows: auto auto;
+height: 80vh;
 
 }
 #findMe{
+    width: 100vw;
     font-size: 3vw;
     margin-top:6vh;
 }
