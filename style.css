@@ -113,7 +113,7 @@ font-size: 3vw;
     font-size: 4vw;
 }
 #findMe h5{
-    -webkit-text-stroke: 1px #e46511;
+    -webkit-text-stroke: 1px #444444;
 }
 #conForms{
 display: grid;
