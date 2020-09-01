@@ -1,4 +1,6 @@
-function retriever(){
+var k = document.getElementById('romButt');
+k.addEventListener('click',
+function(){
     var m = document.getElementById("num").value;
     m = parseInt(m, 10);
     var f = m.toString();
@@ -24,4 +26,4 @@ function retriever(){
    Array(+digits.join("") + 1).join("M") + roman + " in roman";
     }
 
-}
+}, false);

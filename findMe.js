@@ -1,4 +1,5 @@
-function findMe() {
+var m = document.getElementById('conButt');
+m.addEventListener('click', function(){
     var found = document.getElementById('findMe');
     var prject = document.getElementById('projects');
     var abt = document.getElementById('aboutMe');
@@ -9,4 +10,4 @@ found.style.display = 'grid';
     //} else {
       //  found.style.display = 'none';
     //}
-}
+  }, false);

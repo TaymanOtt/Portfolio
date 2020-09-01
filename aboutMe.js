@@ -1,4 +1,6 @@
-function aboutMe() {
+var g = document.getElementById('homButt');
+g.addEventListener('click', 
+function (){
     var gepro = document.getElementById("projects");
     var about = document.getElementById('aboutMe');
     var fm = document.getElementById("findMe");
@@ -9,4 +11,4 @@ about.style.display = 'grid';
   //  } else {
   //      about.style.display = 'none';
  //   }
-}
+}, false);

@@ -1,7 +1,9 @@
-function projects(){
-    var getco = document.getElementById("projects");
-    var unfounded = document.getElementById('findMe');
-    var ab = document.getElementById('aboutMe');
+
+var probutt = document.getElementById('proButt');
+probutt.addEventListener("click", function(){
+  var  getco = document.getElementById("projects");
+ var unfounded = document.getElementById('findMe');
+ var ab = document.getElementById('aboutMe');
     //if (getco.style.display === "none"){
         ab.style.display = 'none';
         unfounded.style.display = 'none';
@@ -9,5 +11,5 @@ function projects(){
     //} else{
       //  getco.style.display = 'none';
     //}
-}
 
+}, false);
