@@ -3,30 +3,35 @@
 <head>
 <meta charset = 'utf-8'>
 <link rel = 'stylesheet' href = 'style.css'/>
+<title>Profile</title>
 
 </head>
 
 <body>
     <nav id = "selectorDiv" class = "sticky">
-         
-        <button  id = "proButt" >Projects</button>               
-                
-        <button id = "conButt" >Contact</button>                    
-            
+
+        <button  id = "proButt" >Projects</button>
+
+        <button id = "conButt" >Contact</button>
+
         <button id = 'homButt'>Home</button>
-    
-        </nav>  
+
+        </nav>
     <div id = "mainDiv" class = 'content'>
-       
+
 
     <div id = 'projects'>
             <div id = "codeSamples" >
-            
-          
+
+              <div id="headLink">
             <h3>Code Samples</h3>
-   
-   
-            
+            <div id ="liveStuff">
+              <a href = "https://www.madspots.com"><img
+                src = "https://www.madspots.com/static/media/logo.ad79f4e7.png"
+                height="50px" width="50px" alt="madspotsLogo"/></a>
+              <p><a href = "https://www.madspots.com">madspots.com</a></p>
+            </div>
+            </div>
             <div id = "innerCode" >
             <div id = "romanCalc">
                 <h4>Roman Numeral Generator</h4>
@@ -35,7 +40,7 @@
             <button id = 'romButt' type = "button" value="Submit">Submit</button>
             <p id = "output1">Enter A number</p>
             </div>
-   
+
             <div id = 'compintCalc'>
             <h4>Compound Interest calculator</h4>
             <form>
@@ -45,21 +50,21 @@
             <input type = "number" id = "intRate" name = "intRate" size = "3vw"/></br>
             <label for "lenOT">Length of time in compounding periods</label></br>
             <input type = "number" id = "lentOT" name = "lenOT" size = "3vw"/></br>
-            <button type = "button" onclick = "compInCal()" value = "Submit">Submit</button>
+            <button type = "button" id="comButt"  value = "Submit">Submit</button>
             </form>
             <div>
             <p id = "output2">Enter Some Numbers</p>
         </div>
             </div>
-   
+
             </div>
             </div>
-            
+
     </div>
 
     <div id = 'findMe'>
         <div id = "conForms">
-    
+
             <div id = "email">
                 <a href = 'mailto:taymanjott@gmail.com'>
                 <img src = 'gmail.png' height = '100px' width = '100px'  alt = 'gmail'/>
@@ -67,7 +72,7 @@
                 </div>
 
 
-        <div id = "gitHub" > 
+        <div id = "gitHub" >
             <a href = "https://github.com/taymanott">
             <img src = "GitHub-Mark-120px-plus.png" alt = 'github' height = '100px' width = '100px'/>
             </a>
@@ -86,20 +91,20 @@
     </div>
 
  <div id = 'aboutMe'>
-    
-    <div id = nameFlair> 
+
+    <div id = nameFlair>
     <h2>Tayman Ott </h2>
     </div>
-         
+
         <div id = "home11">
-        
+
         <h2>Midwestern Web Developer</h2>
         <p style =  "color:rgb(184, 140, 224)" >
             <strong>Experienced with</strong></p>
             <p>Version Control, React.js</p>
             <p>HTML/CSS & JavaScript</p>
        </div>
-    
+
     </div>
 </div>
     <script src = 'nav.js'></script>
